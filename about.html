@@ -23,9 +23,10 @@
             text-align: center;
         }
 
+
         #dynwaresLink {
-            position: absolute;
-            bottom: 10px;
+            text-align: center;
+            display:block;
         }
 
         #githubLink {
@@ -33,20 +34,37 @@
             display: block;
         }
 
-        #overlay{
-                    display: inline-block;
-                    outline: none;
-                    cursor: pointer;
-                    font-size: 16px;
-                    line-height: 20px;
-                    font-weight: 600;
-                    border-radius: 8px;
-                    padding: 14px 24px;
-                    border: none;
-                    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
-                    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
-                    color: #fff;
-                }
+        #overlay {
+                display: inline-block;
+                bottom: 0;
+                left:0;
+                outline: none;
+                cursor: pointer;
+                position: absolute;
+                margin: 10px;
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 600;
+                border-radius: 8px;
+                padding: 14px 24px;
+                border: none;
+                transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+                background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+                color: #fff;
+            }
+
+            #overlay:hover {
+                animation: colorChange 5s infinite;
+            }
+
+            @keyframes colorChange {
+                0% { background: rgb(236, 10, 63); }
+                25% { background: rgb(93, 10, 202); }
+                50% { background: rgb(8, 188, 201); }
+                75% { background: rgb(113, 204, 8); }
+                75% { background: rgb(211, 181, 9); }
+                100% { background: rgb(236, 10, 63); }
+            }
       </style>
 </head>
 <body>
@@ -67,9 +85,8 @@
     <a id="githubLink" href="https://github.com/Equalis-programming/lofi-girl-pwa">Lofi Girl PWA - Equalis-programming</a>
     <p>I will do more updates in the future... Go help me if you want ! :p</p>
 
-    <div id="dynwaresLink">
-        <p>More cool softs on <a href="https://software.dynwares.com/">Dynwares</a></p>
-    </div>
+    <small id="dynwaresLink">More cool softs on <a href="https://software.dynwares.com/">Dynwares</a></small>
+
 
 </body>
 </html>
