@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Lofi Girl PWA</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            #iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            #overlay {
+                position: absolute;
+                bottom: 10px;
+                left: 10px;
+                background-color: rgba(0, 0, 0, 0.5);
+                padding: 10px;
+                border-radius: 5px;
+            }
+
+            #overlay button {
+                color: #fff;
+                background-color: #000;
+                border: none;
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--
+            YT iFrame player parameters explanation:
+
+            autoplay=1 - autoplay video
+            controls=0 - hide controls
+            disablekb=1 - disable keyboard controls
+            iv_load_policy=3 - hide video annotations
+            modestbranding=1 - hide YT logo
+            showinfo=0 - hide video title and creator info
+        -->
+        <iframe
+            id="iframe"
+            type="text/html"
+            src="https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1&controls=0&disablekb=1&modestbranding=1&showinfo=0&iv_load_policy=3"
+            frameborder="0"
+            controls="0"
+            allow="
+                autoplay;
+                encrypted-media;
+                picture-in-picture;
+                web-share">
+        </iframe>
+
+        <div id="overlay">
+            <button onclick="window.location.href='about.html'">About this project</button>
+        </div>
+    </body>
+</html>
+
