@@ -3,7 +3,7 @@
 # About this Project
 This project is a lofi girl progressive web app (PWA) developed by Equalisys.
 
-This software is licensed under the Apache 2.0 License (LICENSE-2.0.txt file)
+This software is licensed under the Apache 2.0 License (LICENSE file)
 
 # Thanks
 This project wouldn't be possible without the 24/7 livestream of Lofi Girl
