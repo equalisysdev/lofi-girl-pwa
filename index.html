@@ -1,7 +1,35 @@
 <html>
     <head>
         <title>Lofi Girl PWA</title>
-        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            #iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            #overlay{
+                display: inline-block;
+                    outline: none;
+                    cursor: pointer;
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-weight: 600;
+                    border-radius: 8px;
+                    padding: 14px 24px;
+                    border: none;
+                    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+                    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+                    color: #fff;
+        }
+
+        </style>
     </head>
     <body>
         <!--
@@ -26,7 +54,7 @@
                 picture-in-picture;
                 web-share">
         </iframe>
-
+        
         <button id="overlay" onclick="window.location.href='about.html'">About this project</button>
 
     </body>

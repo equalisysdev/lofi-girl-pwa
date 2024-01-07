@@ -2,10 +2,56 @@
 <html>
 <head>
     <title>About</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+        h1{
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+        p {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+        a {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+
+        #dynwaresLink {
+            position: absolute;
+            bottom: 10px;
+        }
+
+        #githubLink {
+            text-align: center;
+            display: block;
+        }
+
+        #overlay{
+            display: inline-block;
+                    outline: none;
+                    cursor: pointer;
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-weight: 600;
+                    border-radius: 8px;
+                    padding: 14px 24px;
+                    border: none;
+                    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+                    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+                    color: #fff;
+        }
+
+      </style>
 </head>
 <body>
-    <button id="overlay" onclick="window.location.href='index.html'">Return to the stream</button>
+    <button id="overlay onclick="window.location.href='index.html'">Return to the stream</button>
 
     <h1>About this Project</h1>
     <p>This project is a lofi girl progressive web app (PWA) developed by Equalisys.</p>
