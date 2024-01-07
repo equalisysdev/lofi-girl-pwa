@@ -1,36 +1,7 @@
 <html>
     <head>
         <title>Lofi Girl PWA</title>
-        <style>
-            body {
-                margin: 0;
-                padding: 0;
-            }
-            #iframe {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-            }
-            #overlay {
-                position: absolute;
-                bottom: 10px;
-                left: 10px;
-                background-color: rgba(0, 0, 0, 0.5);
-                padding: 10px;
-                border-radius: 5px;
-            }
-
-            #overlay button {
-                color: #fff;
-                background-color: #000;
-                border: none;
-                padding: 5px 10px;
-                cursor: pointer;
-            }
-
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!--
@@ -56,9 +27,8 @@
                 web-share">
         </iframe>
 
-        <div id="overlay">
-            <button onclick="window.location.href='about.html'">About this project</button>
-        </div>
+        <button id="overlay" onclick="window.location.href='about.html'">About this project</button>
+
     </body>
 </html>
 
