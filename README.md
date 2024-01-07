@@ -1,4 +1,4 @@
-*This is basicaly the content of the about.html file*
+*This is basically the content of the about.html file*
 
 # About this Project
 This project is a lofi girl progressive web app (PWA) developed by Equalisys.
