@@ -1,38 +1,12 @@
 <html>
     <head>
-        <title>Lofi Girl PWA</title>
+        <title>Choose your Lo-Fi stream</title>
         <link rel="stylesheet" href="style.css">
-        <style>
-
-        </style>
     </head>
+
     <body>
-        <!--
-            YT iFrame player parameters explanation:
-
-            autoplay=1 - autoplay video
-            controls=0 - hide controls
-            disablekb=1 - disable keyboard controls
-            iv_load_policy=3 - hide video annotations
-            modestbranding=1 - hide YT logo
-            showinfo=0 - hide video title and creator info
-        -->
-        <div id="container">
-            <button id="aboutButton" onclick="window.location.href='about.html'">About This Project</button>
-            <iframe
-                id="iframe"
-                type="text/html"
-                src="https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1&controls=0&disablekb=1&modestbranding=1&showinfo=0&iv_load_policy=3"
-                frameborder="0"
-                controls="0"
-                allow="
-                    autoplay;
-                    encrypted-media;
-                    picture-in-picture;
-                    web-share">
-            </iframe>
-        </div>
-
-    </body>
+        <div class="glow-on-hover" onclick="window.location.href='classic.html'">
+            <p>Classic</p>
+    </div>
+</body>
 </html>
-
