@@ -1,7 +1,7 @@
 var data_tracking =  {
       platform: "windows",
-      appID:"uMoDyfCYcRxaf45uh4xM",
-      url:"https://github.com/Equalis-programming/lofi-girl-pwa",
+      appID:"4BBaPkaKoPZOiOlxSCfR",
+      url:"https://equalis-programming.github.io/lofi-girl-pwa/",
       appname:"Lofi Girl PWA"
     };
     window.dataLayer = window.dataLayer || [];
