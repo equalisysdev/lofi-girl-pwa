@@ -25,6 +25,10 @@ a {
     color:white
 }
 
+*{
+    background-color: #0d0d0d;
+}
+
 body {
     margin: 0;
     padding: 0;
