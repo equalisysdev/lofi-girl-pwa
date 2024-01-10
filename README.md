@@ -18,4 +18,4 @@ If you're interested in contributing to this project, feel free to make pull req
 I will do more updates in the future... Go help me if you want ! :p
 
 
-*This project is suported by [software.dynwares.com](Dynwares)*
+*This project is suported by [https://software.dynwares.com/](Dynwares)*
