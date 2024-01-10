@@ -1,8 +1,10 @@
-<html>
-    <head>
-        <title>Choose your Lo-Fi stream</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+<!-- offline.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
         <link rel="manifest" href="manifest.json">
         <script>
             if ('serviceWorker' in navigator) {
@@ -12,14 +14,12 @@
             }
         </script>
         <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
-    </head>
 
-    <body>
-
-        <button class="rainbowButton" onclick="window.location.href='about.html'">About</button>
-
-        <div class="glow-on-hover" onclick="window.location.href='classic.html'">
-            <p class="cardTitle">Classic Lofi</p>
-    </div>
+    <title>Offline</title>
+</head>
+<body>
+    <h1>503</h1>
+    <h3>Whoops, Seems you are offline!</h3>
+    <p>Check your internet connection...</p>
 </body>
 </html>
