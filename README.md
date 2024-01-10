@@ -10,7 +10,7 @@ This project wouldn't be possible without the 24/7 livestream of Lofi Girl
 
 Special thanks to GitHub Copilot (all the devs know why 😉 )
 
-This project uses assets from [https://codepen.io/kocsten](Kocsten)
+This project uses assets from [Kocsten](https://codepen.io/kocsten)
 
 # Contributing
 If you're interested in contributing to this project, feel free to make pull requests ! I would be happy to help...
@@ -18,4 +18,4 @@ If you're interested in contributing to this project, feel free to make pull req
 I will do more updates in the future... Go help me if you want ! :p
 
 
-*This project is suported by [https://software.dynwares.com/](Dynwares)*
+*This project is suported by [Dynwares](https://software.dynwares.com/)*
