@@ -1,0 +1,9 @@
+{
+    "name": "Lofi Girl PWA",
+    "short_name": "Lofi Girl",
+    "start_url": "index.html",
+    "scope": "./",
+    "theme_color": "#ffd31d",
+    "background_color": "#0d0d0d",
+    "display": "standalone"
+}
