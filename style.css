@@ -20,9 +20,7 @@ p {
 }
 
 a {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color:white
+    background-color: #0d0d0d;
 }
 
 *{
@@ -198,6 +196,7 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 30px;
     color: #fff;
+    background-color: transparent;
     text-align: center;
 }
 
